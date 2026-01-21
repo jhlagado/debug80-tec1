@@ -1,0 +1,12 @@
+# Build output
+build/
+*.lst
+*.hex
+*.bin
+*.d8dbg.json
+
+# Local tooling
+.debug80/
+
+# OS
+.DS_Store
