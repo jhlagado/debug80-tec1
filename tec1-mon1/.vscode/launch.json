@@ -2,12 +2,12 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Debug80 (TEC-1 MON-1)",
+      "name": "serial - Debug80 (TEC-1 MON-1)",
       "type": "z80",
       "request": "launch"
     },
     {
-      "name": "Debug80 (TEC-1 MON-1) — matrix",
+      "name": "matrix - Debug80 (TEC-1 MON-1)",
       "type": "z80",
       "request": "launch",
       "target": "matrix"
