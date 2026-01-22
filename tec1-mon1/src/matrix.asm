@@ -25,11 +25,13 @@ ROWLP:  LD   A,(HL)
         LD   DE,ROWMASKS
         JR   FRAME
 
-DELAY:  LD   B,0x10
+DELAY:  PUSH  BC
+        LD   B,0x10
 D1:     LD   C,0xFF
 D2:     DEC  C
         JR   NZ,D2
         DJNZ D1
+        POP   BC
         RET
 
 ; Simple X pattern.
