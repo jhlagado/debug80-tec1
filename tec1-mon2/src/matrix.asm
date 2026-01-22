@@ -9,6 +9,12 @@
 PORT_ROW        EQU   0x05
 PORT_DATA       EQU   0x06
 
+; START
+; Purpose : Entry point for the 8x8 LED matrix scan loop.
+; Inputs  : None.
+; Clobbers: AF, BC, DE, HL.
+; Flags   : Undefined.
+; Returns : Never.
 START:  LD   HL,PATTERN
         LD   DE,ROWMASKS
 
@@ -25,6 +31,12 @@ ROWLP:  LD   A,(HL)
         LD   DE,ROWMASKS
         JR   FRAME
 
+; DELAY
+; Purpose : Short row-hold delay to stabilize LED persistence.
+; Inputs  : None.
+; Preserves: BC, DE, HL, A.
+; Flags   : Modified (Z/N/etc) by loop counters.
+; Returns : RET.
 DELAY:  PUSH  BC
         LD   B,0x10
 D1:     LD   C,0xFF
