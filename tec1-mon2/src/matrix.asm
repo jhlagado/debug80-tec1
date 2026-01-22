@@ -36,7 +36,6 @@ ROWLP:  LD   A,(HL)
 ; Inputs  : None.
 ; Preserves: BC, DE, HL, A.
 ; Flags   : Modified (Z/N/etc) by loop counters.
-; Returns : RET.
 DELAY:  PUSH  BC
         LD   B,0x10
 D1:     LD   C,0xFF
