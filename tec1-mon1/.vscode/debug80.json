@@ -16,7 +16,8 @@
         "appStart": 2048,
         "entry": 0,
         "romId": "mon-1b",
-        "romHex": "../roms/tec1/mon-1b/mon-1b.hex"
+        "romHex": "../roms/tec1/mon-1b/mon-1b.hex",
+        "extraListings": ["../roms/tec1/mon-1b/mon-1b.lst"]
       }
     },
     "matrix": {
@@ -34,7 +35,8 @@
         "appStart": 2048,
         "entry": 0,
         "romId": "mon-1b",
-        "romHex": "../roms/tec1/mon-1b/mon-1b.hex"
+        "romHex": "../roms/tec1/mon-1b/mon-1b.hex",
+        "extraListings": ["../roms/tec1/mon-1b/mon-1b.lst"]
       }
     }
   }

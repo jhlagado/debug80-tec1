@@ -16,7 +16,8 @@
         "appStart": 2304,
         "entry": 0,
         "romId": "mon-2",
-        "romHex": "../roms/tec1/mon-2/mon-2.hex"
+        "romHex": "../roms/tec1/mon-2/mon-2.hex",
+        "extraListings": ["../roms/tec1/mon-2/mon-2.lst"]
       }
     },
     "matrix": {
@@ -34,7 +35,8 @@
         "appStart": 2304,
         "entry": 0,
         "romId": "mon-2",
-        "romHex": "../roms/tec1/mon-2/mon-2.hex"
+        "romHex": "../roms/tec1/mon-2/mon-2.hex",
+        "extraListings": ["../roms/tec1/mon-2/mon-2.lst"]
       }
     }
   }
